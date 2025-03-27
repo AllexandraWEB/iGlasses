@@ -4,11 +4,12 @@ import Nav from './Nav'
 const Hero = () => {
   return (
     <section id='home' className='w-full flex flex-col min-h-screen bg-[url("/Hero-Section.svg")] bg-cover bg-center relative border-2 border-red-500'>
-          <div className='w-full h-[250px] border-2 border-blue-600'>
+          <div className='w-full h-[100px] md:h-[250px] border-2 border-blue-600'>
              <Nav /> 
           </div>
-          <div className='w-full mt-[20%] border-2 border-amber-400'> 
-             <h1 className='text-[50px] md:text-[92px] pl-[28px] text-center md:text-start m-auto md:m-0 text-white tracking-[-4px] leading-[43px] md:leading-[78px] uppercase font-inter font-extrabold'>Creating the <br /> future of <br /> vision</h1>
+          <div className='flex justify-between flex-wrap w-full md:mt-[40vh] border-2 border-amber-400'> 
+             <h1 className='text-[50px] md:text-[92px] py-5 pl-0 md:pl-[28px] text-center m-auto md:text-start md:m-0 text-white tracking-[-4px] leading-[43px] md:leading-[78px] uppercase font-inter font-extrabold'>Creating <br /> the future <br /> of vision</h1>
+             <p className='w-[336px] h-[126px] md:mr-[28px] text-[12px] md:text-[16px] py-5 mt-[58vh] md:mt-0 mx-auto text-center md:text-start font-bold uppercase'>Make your smart glasses an extension of your personal style. Choose from a range of elegant lenses and frames. <br /> <br /> Customize features to suit your preferences.</p>
           </div>
        
     </section>
@@ -17,21 +18,4 @@ const Hero = () => {
 
 export default Hero
 
-// Need to fix the h1 (adding padding in the phone version, if needed to be centered)
-
-// <section id='home' className='w-full flex flex-col md:flex-row xl:flex-row min-h-screen bg-[url("/Hero-Section.svg")] bg-cover bg-center relative border-2 border-red-500'>
-        
-// <div className='absolute w-full h-[231px] mt-[40px] flex flex-wrap flex-auto items-start border-2 border-blue-500'>
-
-//     <img src="Logo.svg" alt="iGlasses Logo" className='ml-[28px]'/>
-//     <img src="Logo-Decoration.svg" alt="Decoration Logo" className='hidden lg:block ml-[45px] md:ml-[77px] ld:ml-[77px] mr-[20px]'/>
-//     <div>
-//     <h1 className='text-[50px] md:text-[92px] text-center md:text-start m-auto md:m-0 text-white tracking-[-4px] leading-[43px] md:leading-[78px] uppercase font-inter font-extrabold'>Creating the <br /> future of <br /> vision</h1>
-//     </div>
-//     <div className=''>
-//     <Nav /> 
-//     </div>
-//     {/* <CartButton /> */}
-//  </div>
-
-// </section>
+// Need to add padding px to the title and parahraph

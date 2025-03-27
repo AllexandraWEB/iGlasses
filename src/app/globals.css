@@ -26,6 +26,9 @@
   --font-roboto: "Roboto", "sans-serif"; 
 }
 
+@theme {
+  --font-roboto-mono: "Roboto Mono", "sans-serif"; 
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
