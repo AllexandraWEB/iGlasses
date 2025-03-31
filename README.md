@@ -1,3 +1,10 @@
+# iGlasses
+
+<p>I'm currently working on this project. I've made the Figma design by myself. Feel free to check it out on my Behance Profile - https://www.behance.net/gallery/222612617/iGlasses </p>
+
+![Photo 1](https://github.com/user-attachments/assets/b94938a2-8c09-44d6-a7e0-988c683acc8e)
+![Photo 2](https://github.com/user-attachments/assets/82a1a501-01d4-4b32-be20-49f47171be2d)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
