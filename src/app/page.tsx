@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Hero from "./components/layout/Hero";
+import AboutSection from "./components/layout/AboutSection";
 
 
 
@@ -8,6 +9,7 @@ export default function Home() {
     <>
       <main>
         <Hero />
+        <AboutSection />
         {/* <Benefits />
         <Info />
         <Integrations />
