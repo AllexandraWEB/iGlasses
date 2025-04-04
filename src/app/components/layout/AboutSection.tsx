@@ -3,7 +3,7 @@ import AboutCard from '../ui/AboutCard'
 
 const AboutSection = () => {
   return (
-    <section id='about' className='w-full flex flex-col md:flex-row min-h-screen text-black bg-[#E9E9E9] relative border-2 border-blue-500' >
+    <section id='about' className='w-full flex flex-col md:flex-row min-h-screen text-black bg-[#E9E9E9] relative' >
       <div className='flex flex-wrap flex-col md:flex-row mt-[10rem] m-auto md:mx-0 text-center md:text-start'>
         <div className='mb-[1rem] md:mb-0'>
           <label htmlFor="#" className='ml-[0px] md:ml-[1.8rem] text-[1rem] uppercase font-bold md:mr-[3.75rem]'>about</label>

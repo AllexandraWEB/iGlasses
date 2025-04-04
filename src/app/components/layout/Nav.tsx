@@ -16,7 +16,7 @@ const Nav = () => {
 
     return (
     <header className='relative padding-x py-8 z-10 w-full bg-light-gray'>
-      <nav className='flex justify-between items-start regular-container'>
+      <nav className='flex justify-between items-start'>
                   <div className="">
                    <img 
                    src='Logo.svg' 
@@ -73,9 +73,6 @@ const Nav = () => {
   
           <ul className='flex justify-end items-center gap-5 max-lg:hidden text-nav-color text-[16px] mr-0 md:mr-[90px]'> 
               <CartButton />
-              <div className='w-[10px]'>
-              {/* <BlueButton /> */}
-              </div>
           </ul>
           <div className='hidden max-lg:block'> 
             <button onClick={toggleMenu}>
