@@ -2,7 +2,7 @@ import React from 'react'
 
 const Form = () => {
   return (
-    <div className="w-[22rem] h-[16.5rem] flex justify-center items-center p-2 bg-white/10 backdrop-blur-md border-white/30 shadow-lg rounded-[4px] border-2">
+    <div className="w-[22rem] h-[16.5rem] mt-[50px] md:mt-0 flex justify-center items-center p-2 bg-white/10 backdrop-blur-md border-white/30 shadow-lg rounded-[4px] border-2">
     <div className="flex flex-col text-start w-full px-6">
       <h1 className="uppercase text-[14px] font-bold">
         join the newsletter
