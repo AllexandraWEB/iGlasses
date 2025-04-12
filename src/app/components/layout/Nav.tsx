@@ -43,7 +43,7 @@ const Nav = () => {
                 </button>
               </li>
               <li>
-                <a href='/' onClick={toggleMenu}>Product</a>
+                <a href='' onClick={toggleMenu}>Product</a>
               </li>
               <li className='mb-4 hover:underline-offset-8'>
                 <a href='/pricing' onClick={toggleMenu}>Pricing</a>
@@ -64,7 +64,7 @@ const Nav = () => {
           </div>
         )}
          <ul className='flex-1 flex justify-start items-center px-9 gap-6 max-lg:hidden text-white cursor-pointer tracking-[0.15rem] text-[13px] uppercase font-bold'>
-              <li className="px-5 ml-[180px] hover:underline hover:underline-offset-8"><a href="/">Product</a></li>
+              <li className="px-5 ml-[180px] hover:underline hover:underline-offset-8"><a href="">Product</a></li>
               <li className="px-5 hover:underline hover:underline-offset-8"><a href="">Pricing</a></li>
               <li className="px-5 hover:underline hover:underline-offset-8"><a href=""> Company</a></li>
               <li className="px-5 hover:underline hover:underline-offset-8"><a href="">Blog</a></li>
