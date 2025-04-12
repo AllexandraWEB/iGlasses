@@ -4,7 +4,7 @@ import LinkForm from "./LinkForm";
 
 const ContactSection = () => {
   return (
-    <section className='w-full flex flex-col min-h-screen bg-[url("/Contact-Section.svg")] bg-cover bg-center relative'>
+    <section className='w-full flex flex-col min-h-screen bg-[url("/Contact-Section.svg")] bg-cover bg-center relative text-white'>
       <div className="flex flex-wrap flex-col justify-between md:flex-row md:mt-[2.6rem] m-auto md:mx-0 text-center md:text-start">
         <div className="flex items-start mb-[1rem] m-auto md:m-0 lg:px-6 md:mb-0 py-6 md:py-2">
           <img src="/Logo.svg" alt="Logo" className="w-[40px] h-auto" />
